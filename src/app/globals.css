@@ -1,8 +1,36 @@
-@import "tailwindcss" source(none);
-@source "../src";
+@import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
+:root {
+  --radius: 0.5rem;
+
+  --background: #FBFAF7;
+  --foreground: #1F1023;
+
+  --card: #FFFFFF;
+  --card-foreground: #1F1023;
+  --popover: #FFFFFF;
+  --popover-foreground: #1F1023;
+
+  --primary: #2E1834;
+  --primary-foreground: #FFF9E5;
+
+  --secondary: #F5EEF7;
+  --secondary-foreground: #2E1834;
+
+  --muted: #F2EFEA;
+  --muted-foreground: #5C3069;
+
+  --accent: #FFCD29;
+  --accent-foreground: #2E1834;
+
+  --destructive: #CC0014;
+  --destructive-foreground: #FFFFFF;
+
+  --border: #EDE6E0;
+  --input: #EDE6E0;
+  --ring: #7B408C;
+}
 
 @theme inline {
   --font-display: "Fraunces", Georgia, serif;
@@ -67,37 +95,6 @@
   --color-ink-950: #0D0D0D;
 }
 
-:root {
-  --radius: 0.5rem;
-
-  --background: #FBFAF7;
-  --foreground: #1F1023;
-
-  --card: #FFFFFF;
-  --card-foreground: #1F1023;
-  --popover: #FFFFFF;
-  --popover-foreground: #1F1023;
-
-  --primary: #2E1834;
-  --primary-foreground: #FFF9E5;
-
-  --secondary: #F5EEF7;
-  --secondary-foreground: #2E1834;
-
-  --muted: #F2EFEA;
-  --muted-foreground: #5C3069;
-
-  --accent: #FFCD29;
-  --accent-foreground: #2E1834;
-
-  --destructive: #CC0014;
-  --destructive-foreground: #FFFFFF;
-
-  --border: #EDE6E0;
-  --input: #EDE6E0;
-  --ring: #7B408C;
-}
-
 @layer base {
   * { border-color: var(--color-border); }
 
@@ -116,7 +113,6 @@
     letter-spacing: -0.02em;
   }
 }
-
 @utility text-balance { text-wrap: balance; }
 @utility text-pretty { text-wrap: pretty; }
 
@@ -132,15 +128,13 @@
   color: var(--color-plum-600);
 }
 
-@utility eyebrow-line {
-  &::before {
-    content: "";
-    display: inline-block;
-    width: 2rem;
-    height: 1px;
-    background: currentColor;
-    opacity: 0.5;
-  }
+.eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 2rem;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.5;
 }
 
 @utility hairline {
@@ -164,3 +158,10 @@
 @utility animate-fade-up { animation: fade-up 0.9s cubic-bezier(.2,.7,.2,1) both; }
 @utility animate-soft-pulse { animation: soft-pulse 2.6s ease-in-out infinite; }
 @utility animate-bounce-down { animation: bounce-down 1.8s ease-in-out infinite; }
+
+
+
+body {
+
+
+}
