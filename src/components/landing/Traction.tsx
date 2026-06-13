@@ -1,6 +1,6 @@
 const targets = [
   { v: "$1.5M", l: "Fundraising target" },
-  { v: "1,000", l: "Vendors to onboard" },
+  { v: "10,000", l: "Vendors to onboard" },
   { v: "100,000", l: "Target transactions" },
   { v: "4 States", l: "Initial footprint" },
 ];

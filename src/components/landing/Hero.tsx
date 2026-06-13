@@ -24,20 +24,22 @@ export function Hero() {
           Invitation Only · Operation SDC
         </div>
 
-        <h1 className="mt-8 font-display text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem] leading-[1.02] text-balance text-primary">
+        <h1 className="mt-8 font-display text-5xl sm:text-6xl lg:text-5xl xl:text-[5.5rem] leading-[1.02] text-balance text-primary">
           <span className="block animate-fade-up" style={{ animationDelay: "120ms" }}>
             The future of cultural commerce
           </span>
           <span className="block animate-fade-up" style={{ animationDelay: "320ms" }}>
-            is being built <em className="not-italic text-plum-600">right now.</em>
+            is being built <em className="not-italic text-plum-600">right now,</em><br/>
+              
           </span>
+           <p className="lg:text-5xl xl:text-[3.0rem] leading-[65px]">and this is your moment to help build it from the ground up.</p>
           <span className="block animate-fade-up text-3xl sm:text-4xl lg:text-5xl mt-6 text-muted-foreground font-normal italic" style={{ animationDelay: "520ms" }}>
-            and we're choosing who builds it with us.
+        
           </span>
         </h1>
 
         <p className="mt-10 max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground text-pretty animate-fade-up" style={{ animationDelay: "720ms" }}>
-          Mamaket is opening a strictly limited <span className="text-primary font-medium">Founding Circle</span> — a select group of investors and operators who will help shape the company's future, share in its growth, and be remembered as the people who saw it first.
+         Mamaket is inviting a select group of visionary investors to help shape its infrastructure layer for cultural commerce. This is not a public offering. This is a private invitation to the people who see what we see.
         </p>
 
         <div className="mt-16 flex flex-col items-center gap-3 animate-fade-up" style={{ animationDelay: "920ms" }}>
