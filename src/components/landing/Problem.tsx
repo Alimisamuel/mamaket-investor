@@ -9,71 +9,7 @@ export function Problem() {
   return (
     <section id="problem" className="relative py-28 lg:pb-40 lg:pt-20 px-6">
       <div className="mx-auto max-w-7xl ">
-        <div className="mb-20 grid lg:grid-cols-1 gap-px bg-border rounded-2xl overflow-hidden border border-border">
-          <div className="bg-plum-50/40 p-10 lg:p-14">
-            <div className="text-xs uppercase tracking-[0.28em] text-plum-700 font-semibold">
-              About Mamaket
-            </div>
-            <p className="mt-8 space-y-6 text-[15px] leading-relaxed text-ink-800">
-              Mamaket is a US-based marketplace infrastructure for cultural
-              commerce. We connect immigrants, multicultural families,
-              travelers, and culture enthusiasts to the cultures they love,
-              facilitating an ecosystem for the curation, access, and discovery
-              of culturally authentic products and services, while empowering
-              the small businesses that serve diverse communities.
-              <br />
-              <br />
-              Millions of people relocate every year, often leaving behind the
-              products, traditions, experiences, and sense of belonging that
-              made them feel at home. This cultural disconnection affects
-              wellbeing, identity, and community engagement. Mamaket was created
-              to bridge that gap, making cultural products and services
-              accessible no matter where people live.
-              <br />
-              <br />
-              Our platform enables users to shop for authentic foods, fashion,
-              beauty products, cultural services, and experiences from around
-              the world. At the same time, we provide small businesses with
-              digital tools and access to customers who value cultural
-              authenticity and heritage.
-            </p>
-
-
-{/* Our Mission */}
-            <div className="flex flex-col lg:flex-row mt-10 rounded-2xl overflow-hidden">
-               <div className="bg-background p-10 lg:p-14 relative">
-            <div
-              className="absolute top-0 right-0 h-24 w-24 bg-amber-100/60 rounded-bl-[80px]"
-              aria-hidden
-            />
-            <div className="text-xs uppercase tracking-[0.28em] text-amber-700 font-semibold relative">
-              Our Mission
-            </div>
-           
-            <ul className="mt-8 space-y-6 text-[15px] leading-relaxed text-ink-800">
-              To build a seamless, sophisticated, and intuitive commerce infrastructure that bridges global cultures and local economies.
-            </ul>
-          
-          </div>
-               <div className="bg-background p-10 lg:p-14 relative">
-            <div
-              className="absolute top-0 right-0 h-24 w-24 bg-amber-100/60 rounded-bl-[80px]"
-              aria-hidden
-            />
-            <div className="text-xs uppercase tracking-[0.28em] text-amber-700 font-semibold relative">
-            Our Vision
-            </div>
-          
-            <ul className="mt-8 space-y-6 text-[15px] leading-relaxed text-ink-800">
-            To make global cultures accessible to everyone in their own language and taste, allowing people to shop according to their cultural cravings.
-            </ul>
-           
-          </div>
-            </div>
-          </div>
-
-         
-        </div>
+        
         <div className="max-w-4xl">
           <div className="eyebrow eyebrow-line">02 · The Opportunity</div>
           <h2 className="mt-6 font-display text-4xl sm:text-5xl lg:text-6xl leading-[1.05] text-balance text-primary">
@@ -175,6 +111,72 @@ export function Problem() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-20 grid lg:grid-cols-1 gap-px bg-border rounded-2xl overflow-hidden border border-border">
+          <div className="bg-plum-50/40 p-10 lg:p-14">
+            <div className="text-xs uppercase tracking-[0.28em] text-plum-700 font-semibold">
+              About Mamaket
+            </div>
+            <p className="mt-8 space-y-6 text-[15px] leading-relaxed text-ink-800">
+              Mamaket is a US-based marketplace infrastructure for cultural
+              commerce. We connect immigrants, multicultural families,
+              travelers, and culture enthusiasts to the cultures they love,
+              facilitating an ecosystem for the curation, access, and discovery
+              of culturally authentic products and services, while empowering
+              the small businesses that serve diverse communities.
+              <br />
+              <br />
+              Millions of people relocate every year, often leaving behind the
+              products, traditions, experiences, and sense of belonging that
+              made them feel at home. This cultural disconnection affects
+              wellbeing, identity, and community engagement. Mamaket was created
+              to bridge that gap, making cultural products and services
+              accessible no matter where people live.
+              <br />
+              <br />
+              Our platform enables users to shop for authentic foods, fashion,
+              beauty products, cultural services, and experiences from around
+              the world. At the same time, we provide small businesses with
+              digital tools and access to customers who value cultural
+              authenticity and heritage.
+            </p>
+
+
+{/* Our Mission */}
+            <div className="flex flex-col lg:flex-row mt-10 rounded-2xl overflow-hidden">
+               <div className="bg-background p-10 lg:p-14 relative">
+            <div
+              className="absolute top-0 right-0 h-24 w-24 bg-amber-100/60 rounded-bl-[80px]"
+              aria-hidden
+            />
+            <div className="text-xs uppercase tracking-[0.28em] text-amber-700 font-semibold relative">
+              Our Mission
+            </div>
+           
+            <ul className="mt-8 space-y-6 text-[15px] leading-relaxed text-ink-800">
+              To build a seamless, sophisticated, and intuitive commerce infrastructure that bridges global cultures and local economies.
+            </ul>
+          
+          </div>
+               <div className="bg-background p-10 lg:p-14 relative">
+            <div
+              className="absolute top-0 right-0 h-24 w-24 bg-amber-100/60 rounded-bl-[80px]"
+              aria-hidden
+            />
+            <div className="text-xs uppercase tracking-[0.28em] text-amber-700 font-semibold relative">
+            Our Vision
+            </div>
+          
+            <ul className="mt-8 space-y-6 text-[15px] leading-relaxed text-ink-800">
+            To make global cultures accessible to everyone in their own language and taste, allowing people to shop according to their cultural cravings.
+            </ul>
+           
+          </div>
+            </div>
+          </div>
+
+         
         </div>
 
         <div className="mt-20 text-center">
