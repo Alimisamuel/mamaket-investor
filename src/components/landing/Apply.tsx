@@ -47,7 +47,7 @@ export function Apply() {
             This is your invitation.
           </h2>
           <p className="mt-8 text-lg text-plum-200 leading-relaxed max-w-md">
-            The Founding Circle is not open to everyone. It is open to the right people.
+            The Founding Council is not open to everyone. It is open to the right people.
           </p>
           <p className="mt-4 text-base text-plum-300 max-w-md">
             If you are reading this, you may be one of them. Apply below — we will review your application and reach out personally.

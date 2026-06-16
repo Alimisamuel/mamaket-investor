@@ -6,8 +6,8 @@ const targets = [
 ];
 
 const proofs = [
-  { t: "Platform built & operational", d: "The Mamaket platform is live and functional — not a concept, not a prototype. The infrastructure is in place and ready to scale." },
-  { t: "Target markets identified & validated", d: "Florida, Georgia, Texas, and California represent the highest-density college markets in the U.S. — over 20 million students combined." },
+  { t: "Platform built & operational", d: "The Mamaket platform is live and functional, not a concept, not a prototype. The infrastructure is in place and ready to scale." },
+  { t: "Target markets identified & validated", d: "Florida, Georgia, Texas, and California represent the highest-density college markets in the U.S., over 20 million students combined." },
   { t: "Vendor demand confirmed", d: "Early outreach has confirmed strong vendor appetite for a dedicated campus marketplace with zero infrastructure overhead." },
   { t: "Experienced leadership team", d: "Deep expertise in technology, marketplace operations, and campus community engagement." },
   { t: "Clear path to revenue", d: "Transaction fees, subscriptions, and premium placements compound into multi-layered revenue growth." },
@@ -29,7 +29,7 @@ export function Traction() {
             The numbers don't lie.
           </h2>
           <p className="mt-5 text-lg text-plum-200 max-w-xl">
-            Here is where Mamaket stands — and where it is going.
+            Here is where Mamaket stands and where it is going.
           </p>
         </div>
 

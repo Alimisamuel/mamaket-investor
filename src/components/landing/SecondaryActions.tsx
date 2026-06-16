@@ -15,7 +15,7 @@ export function SecondaryActions() {
             Want to learn more first?
           </h2>
           <p className="mt-6 text-lg text-muted-foreground max-w-2xl">
-            Two ways to get acquainted with Mamaket before joining the Founding Circle.
+            Two ways to get acquainted with Mamaket before joining the Founding Council.
           </p>
         </div>
 

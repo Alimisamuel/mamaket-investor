@@ -82,7 +82,7 @@ export function Team() {
             href="#apply"
             className="inline-flex items-center justify-center gap-3 px-10 py-5 rounded-full bg-primary text-primary-foreground font-medium tracking-wide hover:bg-plum-700 transition-all shadow-[0_20px_50px_-20px_rgba(46,24,52,0.5)] hover:shadow-[0_20px_60px_-15px_rgba(46,24,52,0.6)] hover:-translate-y-0.5"
           >
-            Apply to Join the Founding Circle
+            Apply to Join the Founding Council
             <span aria-hidden>→</span>
           </a>
           <p className="mt-4 text-xs uppercase tracking-[0.22em] text-muted-foreground">

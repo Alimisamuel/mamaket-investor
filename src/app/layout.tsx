@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Mamaket Founding Council — Operation SDC",
-  description: "A strictly limited Founding Circle for investors and operators shaping the future of cultural commerce.",
+  description: "A strictly limited Founding Council for investors and operators shaping the future of cultural commerce.",
 };
 
 export default function RootLayout({

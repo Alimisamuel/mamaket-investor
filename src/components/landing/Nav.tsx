@@ -14,7 +14,7 @@ export function Nav() {
           href="#apply"
           className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-plum-700 transition-colors"
         >
-          <span className="hidden sm:inline">Apply to Join the Founding Circle</span>
+          <span className="hidden sm:inline">Apply to Join the Founding Council</span>
           <span className="sm:hidden">Apply</span>
           <span aria-hidden>→</span>
         </a>
