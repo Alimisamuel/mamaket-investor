@@ -26,7 +26,7 @@ export function Apply() {
             A member of our team will review your application and reach out personally within 48 hours. We look forward to the conversation.
           </p>
           <div className="mt-12 h-px hairline mx-auto w-32" />
-          <p className="mt-6 text-xs uppercase tracking-[0.28em] text-amber-400">Speed · Discipline · Closing</p>
+          <p className="mt-6 text-xs uppercase tracking-[0.28em] text-amber-400">Seamless · Sophisticated · Intuitive</p>
         </div>
       </section>
     );
@@ -55,7 +55,7 @@ export function Apply() {
 
           <div className="mt-12 hidden lg:block">
             <div className="text-xs uppercase tracking-[0.28em] text-amber-400">Mamaket Global, Inc.</div>
-            <div className="mt-2 text-sm text-plum-300">Speed · Discipline · Closing</div>
+            <div className="mt-2 text-sm text-plum-300">Seamless · Sophisticated · Intuitive</div>
           </div>
         </div>
 

@@ -56,7 +56,7 @@ export function Hero() {
           className="mt-10 max-w-2xl mx-auto text-base sm:text-lg text-muted-foreground text-pretty animate-fade-up"
           style={{ animationDelay: "720ms" }}
         >
-         You are being invited to shape the first marketplace infrastructure that connects immigrants, multicultural families and culture enthusiasts to the cultures they love. Your investment will scale the ecosystem for the curation, access and discovery of cultural products and services in the United State and beyond.
+         You are being invited to shape the first marketplace infrastructure that connects immigrants, multicultural families and culture enthusiasts to the cultures they love. Your investment will scale the ecosystem for the curation, access and discovery of cultural products and services in the United States and beyond.
         </p>
 
         <div
@@ -81,7 +81,7 @@ export function Hero() {
         Mamaket Global, Inc.
       </div>
       <div className="absolute bottom-8 right-7 lg:right-10 text-[10px] uppercase tracking-[0.28em] text-muted-foreground/70 hidden md:block">
-        Speed · Discipline · Closing
+        Seamless · Sophisticated · Intuitive
       </div>
     </section>
   );
